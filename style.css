@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  background: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 8px;
+  border-radius: 5px;
+}
